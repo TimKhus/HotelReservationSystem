@@ -4,3 +4,5 @@ system that allows efficient management of bookings, user profiles, and room det
 using file storage.
 
 You may run the project by executing the ReservationSystem class.
+
+Admin mode: login: admin, pass: admin.
