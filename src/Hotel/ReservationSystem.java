@@ -14,10 +14,10 @@ public class ReservationSystem {
     public static void main(String[] args) throws ParseException {
         RoomManager roomManager = new RoomManager();
         // load data from Hotel file - room types, amenities, prices, number of rooms in hotel
-        List<RoomType> roomTypes = loadRoomTypesFromFile("Hotel.csv");
+        List<RoomType> roomTypes = loadRoomTypesFromFile("src/Hotel/Hotel.csv");
         createHotel(roomTypes, roomManager);
         // read data from data file (users, bookings, cancelled bookings)
-        String dataStorage = "Data.csv";
+        String dataStorage = "src/Hotel/Data.csv";
         CSVReader.readDataFromFile(dataStorage, RoomManager.getAllUsers(), RoomManager.getAllBookings(),
                 RoomManager.getAllCancelledBookings());
 
