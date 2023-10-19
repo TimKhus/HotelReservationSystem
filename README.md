@@ -7,4 +7,5 @@ You may run the project by executing the ReservationSystem class.
 
 Admin mode: login: admin, pass: admin.
 
-Program takes data from Hotel.csv (room types, room details) and save users, bookings and cancelled bookings to Data.csv
+Program only takes data about hotel from Hotel.csv (room types, room details).
+Program reads and writes data about users, bookings and cancelled bookings from/to Data.csv
